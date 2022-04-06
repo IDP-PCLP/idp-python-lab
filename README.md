@@ -4,7 +4,7 @@ Bem vindas e bem vindos ao repositório do grupo de estudos de Python do IDP, o 
 
 Aqui vocês encontraram recursos, bibliografia e exemplos para seus projetos. 
 
-Livros sugeridos:
+## Livros sugeridos:
 
 SHAW, Zed A. Aprenda Python 3 do jeito certo: uma introdução muito simples ao incrível mundo dos computadores e da codificação. Rio de Janeiro: Alta Books, 2019. E-book. (1 recurso online). (Jeito certo de Zed Shaw). ISBN 9788550809205. Disponível em: https://integrada.minhabiblioteca.com.br/books/9788550809205. Acesso em: 5 abr. 2022. 
 
@@ -16,7 +16,7 @@ PERKOVIC, Ljubomir. Introdução à computação usando Python: um foco no desen
 
 GRUS, Joel. Data science do zero: noções fundamentais com Python. 2. ed. Rio de Janeiro: Alta Books, 2016. E-book. (1 recurso online). ISBN 9788550816463. Disponível em: https://integrada.minhabiblioteca.com.br/books/9788550816463. Acesso em: 9 fev. 2022. 
 
-Links para playlists e canais do YouTube:
+## Links para playlists e canais do YouTube:
 
 Curso de Python 3 - Mundo 1: Fundamentos - YouTube
 https://youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6 
