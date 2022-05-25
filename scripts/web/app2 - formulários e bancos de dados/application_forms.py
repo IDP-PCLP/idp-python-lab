@@ -39,5 +39,26 @@ def registrar():
         return render_template('index.html',name=nome)
     return render_template('registrar.html')
 
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'GET':
+        return render_template('login.html')
+    else:
+        name = request.form['username']
+        passw = request.form['password']
+        try:
+            data = nomes.index(name)
+            if data is not None:
+                session['logged_in'] = True
+                return redirect(url_for('index'))
+            else:
+                return 'Erro login - usuário não encontrado'
+        except:
+            return "Erro Login"
+
+@app.route("/logout")
+def logout():
+    session['logged_in'] = False
+    return redirect(url_for('index'))
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
