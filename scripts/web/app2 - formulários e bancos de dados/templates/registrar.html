@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block conteudo %}
+
+    <h1> Registro </h1>
+    <section class="grid3">
+        <p> Se cadastre aqui.
+        <form action="/registrar" method="POST">
+          <input type="username" name="username" placeholder="Nome de usuário">
+          <input type="password" name="password" placeholder="Password">
+          <input type="submit" value="Log in">
+        </form>
+
+    </section>
+
+
+{% endblock conteudo %}
