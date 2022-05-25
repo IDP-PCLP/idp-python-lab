@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block conteudo %}
+
+    <h1> Deletar </h1>
+    
+    <section class="grid3">
+        <p> Apague um usuario.
+        <form action="/delete" method="POST">
+          <input type="username" name="username" placeholder="Nome de usuário">
+          <input type="submit" value="Deletar usuário">
+        </form>
+
+    </section>
+
+
+{% endblock conteudo %}
